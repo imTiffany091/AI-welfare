@@ -1,0 +1,22 @@
+{
+  "tag": "qwen3-8b_pair_smoke_retry",
+  "mode": "generate_only",
+  "backend": "server",
+  "model_path": null,
+  "served_model_name": "qwen3-8b",
+  "server_base_url": "http://127.0.0.1:8000/v1",
+  "attack_set": {
+    "method": "PAIR",
+    "artifact_model": "vicuna-13b-v1.5",
+    "attack_type": null
+  },
+  "n": 100,
+  "max_new_tokens": 2048,
+  "retry_empty_response": true,
+  "retry_max_new_tokens": 4096,
+  "retry_count": 0,
+  "retried_items": [],
+  "system_prompt_file": "/media/sata3/hyt/workspace/aiwelfare_systemprompt.txt",
+  "answer_file": "/media/sata3/hyt/workspace/jbb_runs/qwen3-8b_pair_smoke_retry.generations.jsonl",
+  "raw_output_file": "/media/sata3/hyt/workspace/jbb_runs/qwen3-8b_pair_smoke_retry.raw.generations.jsonl"
+}

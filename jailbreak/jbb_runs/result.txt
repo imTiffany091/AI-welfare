@@ -1,0 +1,23 @@
+{
+  "tag": "merge_qwen38bthinking_pair_smoke_retry",
+  "mode": "judge_only",
+  "judge_backend": "openai_compat",
+  "judge_base_url": "https://openrouter.ai/api/v1",
+  "judge_jailbreak_model": "openai/gpt-4",
+  "judge_refusal_model": "openai/gpt-4",
+  "n": 100,
+  "jailbreak_rate": 0.05,
+  "refusal_rate": 0.81
+}
+
+{
+  "tag": "qwen3-8b_pair_smoke_retry",
+  "mode": "judge_only",
+  "judge_backend": "openai_compat",
+  "judge_base_url": "https://openrouter.ai/api/v1",
+  "judge_jailbreak_model": "openai/gpt-4",
+  "judge_refusal_model": "openai/gpt-4",
+  "n": 100,
+  "jailbreak_rate": 0.0,
+  "refusal_rate": 0.97
+}
