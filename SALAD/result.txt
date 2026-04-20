@@ -1,0 +1,2 @@
+{"model":"merge_qwen38bthinking","N":440,"harmful":35,"ratio":0.079545}
+{"model":"qwen3-8b","N":440,"harmful":17,"ratio":0.038636}
